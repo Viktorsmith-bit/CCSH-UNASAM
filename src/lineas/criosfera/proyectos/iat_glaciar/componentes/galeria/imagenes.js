@@ -47,8 +47,8 @@ export default function Adaptacion(){
                     <div className='flex flex-1 justify-center lg:justify-between flex-wrap w-full lg:max-w-7xl gap-3 px-4 lg:px-0'>
                         {
                             listaImagenes.map((item)=>{
-                                return <div className='relative'>
-                                            <Image id={item.id} onClick={openModal} className='object-cover cursor-pointer' src={`${item.url}`} width={305} height={250}/>
+                                return <div key={item.id} className='relative'>
+                                            <Image id={item.id} onClick={openModal} className='object-cover cursor-pointer' src={`${item.url}`} width={305} height={250} alt='Grupo de investigación'/>
                                             <div onClick={openModal} className='absolute bottom-0 left-0 opacity flex items-center px-4 h-16 w-full cursor-pointer'>
                                                 <h1 className='text-bold'>{item.nombre}</h1>
                                             </div>

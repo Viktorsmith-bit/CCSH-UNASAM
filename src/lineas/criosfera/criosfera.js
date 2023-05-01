@@ -20,7 +20,7 @@ export default function Home() {
             <div className='flex justify-center px-4 py-10 lg:py-20 background-color'>
                 <div className='flex flex-col-reverse lg:flex-row flex-wrap md:max-w-2xl lg:max-w-7xl'>
                     <div className="w-full lg:flex-1">
-                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540}/>
+                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540} alt='Grupo de investigación'/>
                     </div>
                     <div className="flex w-full lg:flex-1 lg:justify-end items-center pb-10 lg:pb-0 lg:height">
                         <div className="flex-1 lg:max-w-xl">
@@ -41,7 +41,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full lg:flex-1">
-                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540}/>
+                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540} alt='Grupo de investigación'/>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ export default function Home() {
                     <div className="h-0.5 w-24 bg-gray-900 mt-3 mx-auto"></div>
                     <div className="flex justify-center lg:justify-start mt-10 flex flex-wrap gap-4">
                         <div>
-                            <Link href="/criosfera/iat_glaciar"><Image className="cover cursor-pointer" src="/section/SeguridadHidrica_Paron.jpg" width={288} height={225}/></Link>
+                            <Link href="/criosfera/iat_glaciar"><Image className="cover cursor-pointer" src="/section/SeguridadHidrica_Paron.jpg" width={288} height={225} alt='Grupo de investigación'/></Link>
                             <Link href="/criosfera/iat_glaciar">
                                 <div className="border border-gray-300 py-2 rounded-b-md">
                                     <h1 className="text-color text-center cursor-pointer font-bold">IAT_GLACIAR</h1>
@@ -60,7 +60,7 @@ export default function Home() {
                             </Link>
                         </div>
                         <div>
-                            <Link href="/criosfera/iat_glaciar"><Image className="cover cursor-pointer" src="/section/SeguridadHidrica_Paron.jpg" width={288} height={225}/></Link>
+                            <Link href="/criosfera/iat_glaciar"><Image className="cover cursor-pointer" src="/section/SeguridadHidrica_Paron.jpg" width={288} height={225} alt='Grupo de investigación'/></Link>
                             <Link href="/criosfera/iat_glaciar">
                                 <div className="border border-gray-300 py-2">
                                     <h1 className="text-color text-center cursor-pointer font-bold">GLAES FOTOVIDEO</h1>
@@ -69,7 +69,7 @@ export default function Home() {
                             </Link>
                         </div>
                         <div>
-                            <Link href="/criosfera/iat_glaciar"><Image className="cover cursor-pointer" src="/section/SeguridadHidrica_Paron.jpg" width={288} height={225}/></Link>
+                            <Link href="/criosfera/iat_glaciar"><Image className="cover cursor-pointer" src="/section/SeguridadHidrica_Paron.jpg" width={288} height={225} alt='Grupo de investigación'/></Link>
                             <Link href="/criosfera/iat_glaciar">
                                 <div className="border border-gray-300 py-2">
                                     <h1 className="text-color text-center cursor-pointer font-bold">MICRO DEBRIS-GLACIER</h1>
@@ -86,7 +86,7 @@ export default function Home() {
                     <div className="h-0.5 w-24 bg-gray-900 mt-3 mx-auto"></div>
                     <div className="flex justify-center lg:justify-start mt-10 flex flex-wrap gap-4">
                         <div>
-                            <a href="https://perugrows.inaigem.gob.pe/" target="blank"><Image className="cover cursor-pointer" src="/fondos/GlaciarRocoso_SanFelix_20_3.jpeg" width={288} height={225}/></a>
+                            <a href="https://perugrows.inaigem.gob.pe/" target="blank"><Image className="cover cursor-pointer" src="/fondos/GlaciarRocoso_SanFelix_20_3.jpeg" width={288} height={225} alt='Grupo de investigación'/></a>
                             <a href="https://perugrows.inaigem.gob.pe/" target="blank">
                                 <div className="border border-gray-300 py-2">
                                     <h1 className="text-color text-center cursor-pointer font-bold">PERÚ GROWS</h1>
@@ -95,7 +95,7 @@ export default function Home() {
                             </a>
                         </div>
                         <div>
-                            <a href="https://permafrost.inaigem.gob.pe/" target="blank"><Image className="cover cursor-pointer" src="/fondos/Nevado_Coropuna.jpeg" width={288} height={225}/></a>
+                            <a href="https://permafrost.inaigem.gob.pe/" target="blank"><Image className="cover cursor-pointer" src="/fondos/Nevado_Coropuna.jpeg" width={288} height={225} alt='Grupo de investigación'/></a>
                             <a href="https://permafrost.inaigem.gob.pe/" target="blank">
                                 <div className="border border-gray-300 py-2">
                                     <h1 className="text-color text-center cursor-pointer font-bold">PERMAFROST</h1>

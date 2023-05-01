@@ -23,7 +23,7 @@ export default function Home () {
             <main>
                 <Nav />
                 <div className=''>
-                    <Image className='w-full cover' src={laguna_pequeña} height={1200}/>
+                    <Image className='w-full cover' src={laguna_pequeña} height={1200} alt='Grupo de investigación'/>
                     <Link href='/criosfera/iat_glaciar'>
                         <a>
                             <code><h1 className='flex items-center justify-center lg:hidden absolute bottom-0 left-0 bg-white h-12 w-12 font-bold text-color text-white text-xl'>{`<`}</h1></code>

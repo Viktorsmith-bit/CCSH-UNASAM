@@ -22,7 +22,7 @@ export default function Home () {
             <main>
                 <Nav />
                 <div className='relative'>
-                    <Image className='w-full cover' src={laguna_pequeña} height={1200}/>
+                    <Image className='w-full cover' src={laguna_pequeña} height={1200} alt='Grupo de investigación'/>
                     <Link href='/criosfera/iat_glaciar'>
                         <a>
                             <code><h1 className='flex items-center justify-center lg:hidden absolute bottom-0 left-0 bg-white h-12 w-12 font-bold text-color text-white text-xl'>{`<`}</h1></code>
@@ -34,7 +34,7 @@ export default function Home () {
                         listaTesis.map((item)=>{
                             if(item.ruta === router.query.pid){
                                 return <Fragment>
-                                    <div className='flex flex-col-reverse lg:flex-row gap-3 lg:gap-5 flex-1 w-full lg:max-w-6xl'>
+                                    <div key={item.id} className='flex flex-col-reverse lg:flex-row gap-3 lg:gap-5 flex-1 w-full lg:max-w-6xl'>
                                         <div className='border border-gray-300 rounded-md p-4'>
                                             <Link href='/criosfera/iat_glaciar'>
                                                 <a className='h-7'>

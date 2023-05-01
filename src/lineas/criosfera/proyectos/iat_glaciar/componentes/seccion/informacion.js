@@ -6,7 +6,7 @@ export default function Header(){
             <div className='flex justify-center px-4 py-10 lg:py-20'>
                 <div className='flex flex-col-reverse lg:flex-row flex-wrap md:max-w-2xl lg:max-w-7xl'>
                     <div className="w-full lg:flex-1">
-                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540}/>
+                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540} alt='Grupo de investigación'/>
                     </div>
                     <div className="flex w-full lg:flex-1 lg:justify-end items-center pb-10 lg:pb-0 lg:height">
                         <div className="flex-1 lg:max-w-xl">
@@ -28,7 +28,7 @@ export default function Header(){
                         </div>
                     </div>
                     <div className="w-full lg:flex-1">
-                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540}/>
+                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540} alt='Grupo de investigación'/>
                     </div>
                 </div>
             </div>

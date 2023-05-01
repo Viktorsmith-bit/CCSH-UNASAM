@@ -14,7 +14,7 @@ export default function Team(){
                     {
                         listaTeam.map((item)=>{
                             return  <div key={item.id} className='flex items-center width-perfil background-color rounded-md'>
-                                        <Link href={`/criosfera/iat_glaciar/equipo/${item.ruta}`} ><div><Image className='rounded-l-md cursor-pointer cover' src={`${item.foto}`} width={150} height={150}/></div></Link>
+                                        <Link href={`/criosfera/iat_glaciar/equipo/${item.ruta}`} ><div><Image className='rounded-l-md cursor-pointer cover' src={`${item.foto}`} width={150} height={150} alt='Grupo de investigación'/></div></Link>
                                         <div className='w-full flex flex-col justify-center px-4'>
                                             <Link href={`/equipo-cientifico/nacional/${item.ruta}`}><h1 className='text-sm lg:text-base text-color font-bold cursor-pointer'>{item.name}</h1></Link>
                                             <h1 className='text-sm text-gray-700 text-color '>{item.profesion}</h1>

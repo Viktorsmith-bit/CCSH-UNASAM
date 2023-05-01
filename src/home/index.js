@@ -21,7 +21,7 @@ export default function Home(){
             <div className='flex justify-center px-4 py-10 lg:py-20'>
                 <div className='flex flex-col-reverse lg:flex-row flex-wrap md:max-w-2xl lg:max-w-7xl'>
                     <div className="w-full lg:flex-1">
-                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540}/>
+                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540} alt='Grupo de investigación'/>
                     </div>
                     <div className="flex w-full lg:flex-1 lg:justify-end items-center pb-10 lg:pb-0">
                         <div className="flex-1 lg:max-w-xl">
@@ -48,14 +48,14 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="w-full lg:flex-1">
-                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540}/>
+                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540} alt='Grupo de investigación'/>
                     </div>
                 </div>
             </div>
             <div className='flex justify-center px-4 py-10 lg:py-20'>
                 <div className='flex flex-col-reverse lg:flex-row flex-wrap md:max-w-2xl lg:max-w-7xl'>
                     <div className="w-full lg:flex-1">
-                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540}/>
+                        <Image className="cover" src="/fondos/TrabajosModelamiento_Permafrost.jpeg" width={700} height={540} alt='Grupo de investigación'/>
                     </div>
                     <div className="flex w-full lg:flex-1 lg:justify-end items-center pb-10 lg:pb-0 lg:height">
                         <div className="flex-1 lg:max-w-xl">
@@ -73,19 +73,19 @@ export default function Home(){
                     <div className='flex flex-col lg:flex-row lg:flex-wrap justify-center lg:justify-between gap-5 lg:gap-0 mt-10'>
                         <Link href='/criosfera'>
                             <div className='relative cursor-pointer'>
-                                <Image className='cover' src='/section/Criosfera.jpg' width={400} height={290}/>
+                                <Image className='cover' src='/section/Criosfera.jpg' width={400} height={290} alt='Grupo de investigación'/>
                                 <h1 className='absolute left-1/3 top-1/2 bg-white px-5 py-3 rounded-md opacity'>Criósfera</h1>
                             </div>
                         </Link>
                         <Link href='/clima'>
                             <div className='relative cursor-pointer'>
-                                <Image className='cover' src='/section/Clima.jpg' width={400} height={290}/>
+                                <Image className='cover' src='/section/Clima.jpg' width={400} height={290} alt='Grupo de investigación'/>
                                 <h1 className='absolute left-1/3 top-1/2 bg-white px-5 py-3 rounded-md opacity'>Clima</h1>
                             </div>
                         </Link>
                         <Link href='/seguridadhidrica'>
                             <div className='relative cursor-pointer'>
-                                <Image className='cover' src='/section/SeguridadHidrica_Paron.jpg' width={400} height={290}/>
+                                <Image className='cover' src='/section/SeguridadHidrica_Paron.jpg' width={400} height={290} alt='Grupo de investigación'/>
                                 <h1 className='absolute left-1/3 top-1/2 bg-white px-5 py-3 rounded-md opacity'>Seguridad Hídrica</h1>
                             </div>
                         </Link>

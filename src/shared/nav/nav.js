@@ -26,14 +26,14 @@ export default function Nav(){
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                         </svg>
                     }
-                    <Image src='/logos/Logo_UNASAM.png' width={60} height={68}/>
+                    <Image src='/logos/Logo_UNASAM.png' width={60} height={68} alt='Grupo de investigación'/>
                 </div>
                 { !state ? null: <NavMobile />} 
             </nav>
             <nav className='fixed h-20 flex justify-between items-center px-10 w-full hidden lg:flex z-30 background-color border-b border-gray-300 opacity-nav'>
                 <Link href='/'>
                     <a className='w-40'>
-                        <Image src='/logos/Logo_UNASAM.png' width={60} height={68}/>
+                        <Image src='/logos/Logo_UNASAM.png' width={60} height={68} alt='Grupo de investigación'/>
                     </a>
                 </Link>
                 <div className='flex gap-7'>
@@ -43,7 +43,7 @@ export default function Nav(){
                     <Link href="/seguridadhidrica"><a><h1 className={`cursor-pointer ${router.asPath == '/seguridadhidrica'?'border-b-2 border-gray-900':null}`}>Seguridad Hídrica</h1></a></Link>
                     <Link href="/visor"><a><h1 className={`cursor-pointer ${router.asPath == '/visor'?'border-b-2 border-gray-900':null}`}>Visor de mapas</h1></a></Link>
                 </div> 
-                <Image className='w-64' src='/logos/LogoGICCSH_H_SF.png' width={300} height={65}/>
+                <Image className='w-64' src='/logos/LogoGICCSH_H_SF.png' width={300} height={65} alt='Grupo de investigación'/>
             </nav>
         </nav>
     );

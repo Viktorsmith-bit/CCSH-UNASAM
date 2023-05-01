@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/router'
 
-export default function navMobile(){
+export default function NavMobile(){
     const router = useRouter()
     return(
         <div className='w-full px-4 lg:px-10 py-4 background-navMobile shadow-md' >

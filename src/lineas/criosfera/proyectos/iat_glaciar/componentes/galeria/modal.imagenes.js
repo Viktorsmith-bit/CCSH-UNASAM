@@ -29,9 +29,9 @@ export default function Modal(props){
                         <div className='flex items-center justify-center'>
                             {listaImagenes.map((e) =>{
                                 if(e.id === state){
-                                    return <div className='flex flex-col lg:flex-row h-screen lg:h-auto'>
+                                    return <div key={e.id} className='flex flex-col lg:flex-row h-screen lg:h-auto'>
                                         <div className='relative'>
-                                            <Image className={`${e.cover}`} src={`${e.url}`} height={600} width={800}/>
+                                            <Image className={`${e.cover}`} src={`${e.url}`} height={600} width={800} alt='Grupo de investigación'/>
                                             <>
                                                 <code><h1 onClick={next} className='flex justify-center items-center absolute bottom-0 left-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`<`}</h1></code>
                                                 <code><h1 onClick={back} className='flex justify-center items-center absolute bottom-0 right-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`>`}</h1></code>
