@@ -33,8 +33,8 @@ export default function Home () {
                     {
                         listaTesis.map((item)=>{
                             if(item.ruta === router.query.pid){
-                                return <Fragment>
-                                    <div key={item.id} className='flex flex-col-reverse lg:flex-row gap-3 lg:gap-5 flex-1 w-full lg:max-w-6xl'>
+                                return <Fragment key={item.id}>
+                                    <div className='flex flex-col-reverse lg:flex-row gap-3 lg:gap-5 flex-1 w-full lg:max-w-6xl'>
                                         <div className='border border-gray-300 rounded-md p-4'>
                                             <Link href='/criosfera/iat_glaciar'>
                                                 <a className='h-7'>

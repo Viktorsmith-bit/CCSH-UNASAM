@@ -34,7 +34,7 @@ export default function Home () {
                     {
                         listaTesis.map((item)=>{
                             if(item.team[parseInt(router.query.user.slice(0, 1))].user === router.query.user){
-                                return <Fragment>
+                                return <Fragment key={item.id}>
                                     <Link href={`/criosfera/iat_glaciar/produccion/${item.ruta}`} >
                                         <a className='h-7 mt-32'>
                                             <div className='flex lg:flex hidden lg:flex'>
@@ -46,7 +46,7 @@ export default function Home () {
                                         </a>
                                     </Link>
                                     <div className='flex flex-col flex-1 w-full md:max-w-2xl lg:max-w-2xl'>
-                                        <img className='rounded-full w-40 h-40 lg:w-56 lg:h-56 cover border-2 border-white z-20 mx-auto' src={`${item.team[parseInt(router.query.user.slice(0, 1))].foto}`}/>   
+                                        <div className='relative rounded-full cover border-2 border-white z-20 mx-auto w-40 h-40 lg:w-56 lg:h-56'><Image className='rounded-full' layout='fill' src={`${item.team[parseInt(router.query.user.slice(0, 1))].foto}`} alt='Grupo de investigación'/></div>
                                         <div className='mt-3'>
                                             <h1 className='text-center font-bold text-xl lg:text-2xl text-color'>{item.team[parseInt(router.query.user.slice(0, 1))].name}</h1>
                                             <h1 className='text-center text-base text-color'>{item.team[parseInt(router.query.user.slice(0, 1))].cargo}</h1>
