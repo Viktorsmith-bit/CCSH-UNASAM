@@ -79,10 +79,14 @@ export default function Home () {
                                                     </svg>
                                                     <a href={item.team[parseInt(router.query.user.slice(0, 1))].contacto.correo}><h1 className='text-color'>{item.team[parseInt(router.query.user.slice(0, 1))].contacto.email}</h1></a>
                                                 </div>
-                                                <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.linkedin} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.linkedin === null?'hidden':'block'} `}><h1>LinkedIn</h1></a>
-                                                <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.orcid} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.orcid === null?'hidden':'block'} `}><h1>ORCID</h1></a>
-                                                <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.ctvitae} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.ctvitae === null?'hidden':'block'} `}><h1>CTI Vitae</h1></a>
-                                                <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.researchgate} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.researchgate === null?'hidden':'block'} `}><h1>ResearchGate</h1></a>
+                                                {
+                                                    /**
+                                                     * <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.linkedin} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.linkedin === null?'hidden':'block'} `}><h1>LinkedIn</h1></a>
+                                                        <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.orcid} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.orcid === null?'hidden':'block'} `}><h1>ORCID</h1></a>
+                                                        <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.ctvitae} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.ctvitae === null?'hidden':'block'} `}><h1>CTI Vitae</h1></a>
+                                                        <a href={item.team[parseInt(router.query.user.slice(0, 1))].redes.researchgate} rel="noopener" target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.team[parseInt(router.query.user.slice(0, 1))].redes.researchgate === null?'hidden':'block'} `}><h1>ResearchGate</h1></a>
+                                                     */
+                                                }
                                             </div>
                                         </div>                                
                                     </div>
