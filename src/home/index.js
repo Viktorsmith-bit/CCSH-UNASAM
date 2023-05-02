@@ -8,15 +8,14 @@ export default function Home(){
         <div className='section'>
             <Nav />
             <div className='flex'>
-                <div className='flex w-full lg:flex-1 justify-center items-center background-color lg:py-32 height'>
+                <div className='flex w-full lg:flex-1 justify-center items-center background-color height-image'>
                     <div className='flex-1 w-full md:max-w-2xl lg:max-w-xl px-4 py-10 md:px-0 lg:px-0 lg:py-0'>
                         <h1 className='font-extrabold text-3xl lg:text-5xl w-32 border-b-2 pb-3 border-gray-800'>CCSH</h1>
                         <h1 className='font-extrabold text-3xl lg:text-5xl mt-3 font-sans'>GRUPO DE INVESTIGACIÓN CRIÓSFERA, CLIMA Y SEGURIDDAD HÍDRICA</h1>
                         <h1 className='mt-3'>Análisis de la dinámica glaciar, clima y disponibilidad hídrica.</h1>
-                        
                     </div>
                 </div>
-                <div className='flex-1 image-criosfera hidden lg:block'></div>
+                <div className='relative flex-1 height-image'><Image className='cover' layout='fill' src='/section/Criosfera.jpg' alt='Grupo de investigación'/></div>
             </div>
             <div className='flex justify-center px-4 py-10 lg:py-20'>
                 <div className='flex flex-col-reverse lg:flex-row flex-wrap md:max-w-2xl lg:max-w-7xl'>
