@@ -49,12 +49,15 @@ body {
 /****************************************** BREAKPOINTS ******************************************/
 /****************************************** Mobile ******************************************/
 .height-image{
-  height: 25rem;
+  height: 10rem;
 }
 .width-perfil {
   width: 100%;
 }
-
+.dimension-modal{
+  height: 25rem;
+  width: 100%;
+}
 /****************************************** Tableta ******************************************/
 @media (min-width: 768px) {
   .height-image{
@@ -62,6 +65,10 @@ body {
   }
   .width-perfil {
     width: 22.7rem;
+  }
+  .dimension-modal{
+    height: 25rem;
+    width: 100%;
   }
 }
 /****************************************** Laptop ******************************************/
@@ -72,11 +79,19 @@ body {
   .width-perfil {
     width: 26rem;
   }
+  .dimension-modal{
+    height: 37rem;
+    width: 25rem;
+  }
 }
 /****************************************** PC ******************************************/
 @media (min-width: 1536px) {
   .height-image{
     height: 50rem;
+  }
+  .dimension-modal{
+    height: 37rem;
+    width: 25rem;
   }
 }
 

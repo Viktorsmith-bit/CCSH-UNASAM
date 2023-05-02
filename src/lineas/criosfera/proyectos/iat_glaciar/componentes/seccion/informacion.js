@@ -1,8 +1,25 @@
+import { useState } from 'react';
 import Image from 'next/image';
+import ModalModelamiento from './modal/modal';
 
 export default function Header(){
+    const [state, setState] = useState({
+        modelamiento:false, 
+    });
+
+    const openModalModelamiento = (e)=>{
+        e.preventDefault();
+        setState({modelamiento:true})
+    }
+
+    const closeModal = (e)=>{
+        e.preventDefault();
+        setState({modelamiento:false})
+    }
+
     return(
         <div className='section'>
+            { !state.modelamiento ? null: <ModalModelamiento closeModal={closeModal} />}
             <div className='flex justify-center px-4 py-10 lg:py-20'>
                 <div className='flex flex-col-reverse lg:flex-row flex-wrap md:max-w-2xl lg:max-w-7xl'>
                     <div className="w-full lg:flex-1">
@@ -24,7 +41,7 @@ export default function Header(){
                             <h1 className="font-extrabold text-2xl lg:text-2xl">Ámbito de estudio</h1>
                             <div className="h-0.5 w-20 bg-gray-900 mt-3"></div>
                             <h1 className="mt-5 text-justify">El grupo de investigación Criósfera, Clima y Seguridad Hídrica investiga el análsis de la dinámica glaciar, clima y la disponibilidad hídrica en la Cordillera Blanca en Perú y con aplicación en la Isla del Rey George en la Antártida, nuestra investigación integra disciplinas como las Ciencias Naturales y Sociales para comprender cómo los sistemas ambientales y socioambientales responden al cambio climático. Este proyecto busca desarrollar otros métodos más novedosos para su evaluación basados en la teledetección e inteligencia artificial.</h1>
-                            <button className='text-white rounded-md mt-5 px-10 py-4' style={{backgroundColor:'RGB(49,114,181)'}}>Ver mapa</button>
+                            <button onClick={openModalModelamiento} className='text-white rounded-md mt-5 px-10 py-4 bg-gray-800'>Ver mapa</button>
                         </div>
                     </div>
                     <div className="w-full lg:flex-1">
