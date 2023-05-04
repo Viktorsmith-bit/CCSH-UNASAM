@@ -18,7 +18,6 @@ export const listaTesis = [
         estado:"En desarrollo",
         tipo:'pregrado',
         universidad:'UNASAM',
-        link:null,
         tesista:{
             user:'victor-smith-medina-cotrina',
             foto:'/section/Clima.jpg',
@@ -73,7 +72,6 @@ export const listaTesis = [
         estado:"En desarrollo",
         tipo:'pregrado',
         universidad:'UNASAM',
-        link:null,
         tesista:{
             user:'emely-consuelo-barreto-jamanca',
             foto:'/section/Clima.jpg',
@@ -128,7 +126,6 @@ export const listaTesis = [
         estado:"En desarrollo",
         tipo:'pregrado',
         universidad:'UNASAM',
-        link:null,
         tesista:{
             user:'thalia-yanina-calixto-lopez',
             foto:'/section/Clima.jpg',
