@@ -46,13 +46,13 @@ export default function Home () {
                                                 <h1 className='font-bold text-xl text-justify'>{item.titulo}</h1>
                                                 <h1 className='text-sm mt-1'>Abril del 2023</h1>
                                                 <div className='flex gap-2 mt-3'>
-                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.team[0].user}`}><h1 className='cursor-pointer text-sm underline'>{item.team[0].nameUser}</h1></Link>
+                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.tesista.user}`}><h1 className='cursor-pointer text-sm underline'>{item.tesista.nameUser}</h1></Link>
                                                     <h1>,</h1>
-                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.team[1].user}`}><h1 className='cursor-pointer text-sm underline'>{item.team[1].nameUser}</h1></Link>
+                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.asesor.user}`}><h1 className='cursor-pointer text-sm underline'>{item.asesor.nameUser}</h1></Link>
                                                     <h1>,</h1>
-                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.team[2].user}`}><h1 className='cursor-pointer text-sm underline'>{item.team[2].nameUser}</h1></Link>
+                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.co_asesor.user}`}><h1 className='cursor-pointer text-sm underline'>{item.co_asesor.nameUser}</h1></Link>
                                                     <h1>,</h1>
-                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.team[3].user}`}><h1 className='cursor-pointer text-sm underline'>{item.team[3].nameUser}</h1></Link>
+                                                    <Link href={`/criosfera/iat_glaciar/equipo/${item.asis_inves.user}`}><h1 className='cursor-pointer text-sm underline'>{item.asis_inves.nameUser}</h1></Link>
                                                 </div>
                                                 <h1 className='mt-5 font-bold'>Planteamiento del problema</h1>
                                                 <h1 className={`mt-2 text-justify ${item.descrip.descrip1 === null?'hidden':'block'} `}>{item.descrip.descrip1}</h1>

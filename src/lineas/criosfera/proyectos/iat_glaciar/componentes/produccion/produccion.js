@@ -30,10 +30,10 @@ export default function Produccion(){
                                                 <h1 className='text-sm text-gray-700 text-color '>{item.tipo}</h1>
                                             </div>
                                 <div className='mb-auto mt-5'>
-                                    <h1 className='text-sm text-gray-700 text-color'><span className="font-bold">Tesista:</span> {item.team[0].name}</h1>
-                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Universidad:</span> {item.team[0].universidad}</h1>
-                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Asesor:</span> {item.team[1].name}</h1>
-                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Co-Asesor:</span> {item.team[2].name}</h1>
+                                    <h1 className='text-sm text-gray-700 text-color'><span className="font-bold">Tesista:</span> {item.tesista.name}</h1>
+                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Universidad:</span> {item.universidad}</h1>
+                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Asesor:</span> {item.asesor.name}</h1>
+                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Co-Asesor:</span> {item.co_asesor.name}</h1>
                                     <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Estado:</span> {item.estado}</h1>
                                     {
                                         /**<a href={item.link} target="blank"><h1 className={`text-sm text-gray-700 text-color mt-1 ${item.link === null?"hidden":"block"}`}><span className="font-bold">Enlace:</span> <span className='green-color font-bold'>Ver publicación</span></h1></a> */

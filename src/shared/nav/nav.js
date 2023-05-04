@@ -17,7 +17,7 @@ export default function Nav(){
 
     return(
         <nav className='h-20' id='inicio'>
-            <nav className='fixed h-20 w-full lg:hidden z-30 background-color border-b border-gray-300 opacity-nav'>
+            <nav className='fixed h-20 w-full lg:hidden z-30 background-color border-b border-gray-300 opacity'>
                 <div className='flex items-center justify-between h-20 px-4 lg:px-10'>
                     {
                         !state ? <svg onClick={open} xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
@@ -30,7 +30,7 @@ export default function Nav(){
                 </div>
                 { !state ? null: <NavMobile />} 
             </nav>
-            <nav className='fixed h-20 flex justify-between items-center px-10 w-full hidden lg:flex z-30 background-color border-b border-gray-300 opacity-nav'>
+            <nav className='fixed h-20 flex justify-between items-center px-10 w-full hidden lg:flex z-30 background-color border-b border-gray-300 opacity'>
                 <Link href='/'>
                     <a className='w-40'>
                         <Image src='/logos/Logo_UNASAM.png' width={60} height={68} alt='Grupo de investigación'/>

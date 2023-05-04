@@ -2,7 +2,7 @@ export const listaTeam= [
     {
         id:1,
         foto:'/section/Clima.jpg',
-        user:'rnp-edwin-anibal-loarte-cadenas',
+        user:'edwin-anibal-loarte-cadenas',
         name:'Edwin Anibal Loarte Cadenas',
         cargo:'Asesor e investigador principal',
         profesion:'Ingeniero Ambiental',
@@ -11,7 +11,7 @@ export const listaTeam= [
         equipo:'UNASAM',
         especialidad: 'Máster universitario en Gestión de Recursos Hídricos.',
         descripcion:'Profesional ligado a la investigación en recursos hídricos, glaciología, el cambio climático, conocimientos de análisis de riesgos sobre los ámbitos glaciares, simulación de desbordes de lagunas, con conocimiento de SIG y teledetección aplicados al estudio y monitoreo de los recursos ambientales, procesamiento de imágenes de satélite ópticas y radar. Estudios en gestión de recursos hídricos; capacitación en el campo de la glaciología e hidroglaciología, elaboración de balances de masa, determinación de líneas de equilibrio - ELA, determinación del área superficial, estimación de volúmenes, generación de índices de nieve - NDSI para coberturar área glaciar, índices de agua NDWI para coberturar lagunas, NDVI para coberturas de vegetación, experiencia en implementación de bases de datos espaciales e inventarios de lagunas.',
-        correo:{
+        contacto:{
             correo:'mailto:e.loarte@inaigem.gob.pe, eloartecadenas@gmail.com',
             email:'Enviar correo',
         },
@@ -24,16 +24,16 @@ export const listaTeam= [
     {
         id:2,
         foto:'/section/Clima.jpg',
-        user:'rolando-cruz-encarnacion',
+        user:'rolando-cesai-cruz-encarnacion',
         name:'Rolando Cesai Cruz Encarnación',
         cargo:'Co-Asesor',
         ubicacion: 'Áncash, Perú',
         universidad:'UNASAM',
         equipo:'ANA',
-        profesion:'Ingeniera Ambiental',
+        profesion:'Ingeniero Ambiental',
         especialidad:'Maestría en "Técnicas de Gestión del Medio Ambiente y del Territorio" / (2020) Universitat de València y Diplomado en "Gestión Ambiental" (2016) / Universidad Nacional de Ingeniería.',
         descripcion:'Ingeniera Ambiental de la Universidad Nacional Santiago Antúnez de Mayolo (V superior) - Ancash, con experiencia en trabajos con comunidades en los Andes peruanos, sistematización, organización y procesamiento de datos glaciológicos y geomáticos aplicados a recursos hídricos, he participado en proyectos de cooperación internacional,  durante mi carrera profesional he participado de las publicaciones de documentos técnicos y manuales metodológicos para el estudio de los glaciares y los ecosistemas de montaña.',
-        correo:{
+        contacto:{
                 correo:'mailto:yadira.acr@gmail.com',
                 email:'Enviar correo',
         },
@@ -47,7 +47,7 @@ export const listaTeam= [
     {
         id:3,
         foto:'/section/Clima.jpg',
-        ruta:'francisco-nemecio-castillo-vergara',
+        user:'francisco-nemecio-castillo-vergara',
         name:'Francisco Nemecio Castillo Vergara',
         cargo:'Asistente de investigación',
         ubicacion: 'Áncash, Perú',
@@ -56,7 +56,7 @@ export const listaTeam= [
         profesion:'Ingeniero Ambiental',
         especialidad:'Especialización en "Modelamiento hidraulico e hidrologico" - CELAEP-UNMSM y Estudios finalizados en maestría en "Ciencias e Ingeniería con mención en Gestión Ambiental" - UNASAM.',
         descripcion:'Ingeniero Ambiental de la UNASAM (quinto superior) dedicado al uso de las herramientas de teledetección y los sistemas de información geográfica. Investigador en proceso de formación en proyectos multidisciplinarios en temáticas relacionadas a ecosistemas glaciares y periglaciares, con conocimiento en el manejo de equipos y técnicas de monitoreo glaciológico. Fotógrafo aficionado y amante del senderismo en altamontaña.',
-        correo:{
+        contacto:{
             correo:'mailto:fcastillouv@unasam.edu.pe',
             email:'Enviar correo',
         },
@@ -79,7 +79,7 @@ export const listaTeam= [
         profesion:'Ingeniera Ambiental',
         especialidad:null,
         descripcion:'Ingeniera Ambiental de la UNASAM (V superior) - Ancash. Experiencia en estudios de ecología. Participación en proyectos de investigación enfocados al estudio de ecosistemas de montaña, así como en biodiversidad en bosques xéricos y andinos. Conocimiento en tecnologías GIS, manejo de herramientas de estadística ecológica y estimación de la biodiversidad.',
-        correo:{
+        contacto:{
             correo:'mailto:mp.alejo.mosquera@gmail.com',
             email:'Enviar correo',
         },
@@ -92,27 +92,31 @@ export const listaTeam= [
     },
     {
         id:5,
-        ruta:'thalia-yanina-calixto-lopez',
-        pid:'thalia-yanina',
+        user:'thalia-yanina-calixto-lopez',
+        ruta:'Determinación-del-nivel-de-influencia-de-la-temperatura-en-la-variación-de-los-espesores-de-los-frentes-glaciares-en-la-Cordillera-Blanca',
         foto:'/section/Clima.jpg',
         name:'Thalía Yanina Calixto Lopez',
+        nameUser:'Thalía Calixto',
         cargo:'Tesista de pregrado',
+        profesion:'Ingeniera Ambiental',
         ubicacion: 'Áncash, Perú',
-        equipo:'EQUIPO UNASAM',
+        equipo:'UNASAM',
         universidad:'UNASAM',
-        profesion:'Ingeniero Ambiental',
         especialidad:null,
-        descripcion:'Ingeniero Ambiental de la Universidad Nacional Santiago Antúnez de Mayolo (UNASAM) - Ancash. Tengo experiencia en proyectos de investigación relacionados a entornos glaciares con técnicas de fotogrametría, así como teledetección, herramientas GIS y monitoreos ambientales.',
-        correo:'mailto:elijadiel05@gmail.com',
-        email:'Enviar correo',
-        linkedin:null,
-        ctvitae:null,
-        orcid:'https://orcid.org/0000-0003-1739-8492',
-        pucp:null,
-        harvard:null,
-        researchgate:null,
+        descripcion:'Ingeniera Ambiental de la Universidad Nacional Santiago Antúnez de Mayolo (UNASAM) - Ancash. Tengo experiencia en proyectos de investigación relacionados a entornos glaciares con técnicas de fotogrametría, así como teledetección, herramientas GIS y monitoreos ambientales.',
+        contacto:{
+            correo:'mailto:elijadiel05@gmail.com',
+            email:'Enviar correo',
+        },
+        redes:{
+            linkedin:null,
+            ctvitae:null,
+            orcid:'https://orcid.org/0000-0003-1739-8492',
+            researchgate:null,
+        },
     },
     {
+        id:6,
         foto:'/section/Clima.jpg',
         user:'victor-smith-medina-cotrina',
         name:'Víctor Smith Medina Cotrina',
@@ -123,7 +127,7 @@ export const listaTeam= [
         ubicacion:'Áncash, Perú',
         universidad:'UNASAM',
         equipo:'UNASAM',
-        correo:{
+        contacto:{
             correo:'mailto:smith_12_47@hotmail.com',
             email:'Enviar correo',
         },
