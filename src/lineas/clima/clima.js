@@ -7,7 +7,7 @@ export default function Home() {
     <div className='nav'>
         <Nav />
         <div className='relative height-image'>
-            <Image className='cover' layout='fill' src='/section/Clima.jpg' alt='Grupo de investigación'/>
+            <Image className='cover' layout='fill' src='/section/Clima.JPG' alt='Grupo de investigación'/>
             <div className='absolute top-0 left-0 flex justify-center items-center px-4 lg:px-0 w-full height-image'>
                 <div className='flex-1 w-full md:max-w-2xl lg:max-w-7xl'>
                     <div className='flex-1 w-full md:max-w-2xl lg:max-w-xl p-4 lg:p-8 bg-white rounded-md opacity'>
