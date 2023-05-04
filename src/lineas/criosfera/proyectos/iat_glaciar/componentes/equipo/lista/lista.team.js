@@ -1,7 +1,7 @@
 export const listaTeam= [
     {
         id:1,
-        foto:'/section/Clima.jpg',
+        foto:'/section/Clima.JPG',
         user:'edwin-anibal-loarte-cadenas',
         name:'Edwin Anibal Loarte Cadenas',
         cargo:'Asesor e investigador principal',
@@ -23,7 +23,7 @@ export const listaTeam= [
     },
     {
         id:2,
-        foto:'/section/Clima.jpg',
+        foto:'/section/Clima.JPG',
         user:'rolando-cesai-cruz-encarnacion',
         name:'Rolando Cesai Cruz Encarnación',
         cargo:'Co-Asesor',
@@ -46,7 +46,7 @@ export const listaTeam= [
     },
     {
         id:3,
-        foto:'/section/Clima.jpg',
+        foto:'/section/Clima.JPG',
         user:'francisco-nemecio-castillo-vergara',
         name:'Francisco Nemecio Castillo Vergara',
         cargo:'Asistente de investigación',
@@ -69,7 +69,7 @@ export const listaTeam= [
     },
     {
         id:4,
-        foto:'/section/Clima.jpg',
+        foto:'/section/Clima.JPG',
         user:'emely-consuelo-barreto-jamanca',
         name:'Emely Consuelo Barrreto Jamanca',
         cargo:'Tesista de pregrado',
@@ -94,7 +94,7 @@ export const listaTeam= [
         id:5,
         user:'thalia-yanina-calixto-lopez',
         ruta:'Determinación-del-nivel-de-influencia-de-la-temperatura-en-la-variación-de-los-espesores-de-los-frentes-glaciares-en-la-Cordillera-Blanca',
-        foto:'/section/Clima.jpg',
+        foto:'/section/Clima.JPG',
         name:'Thalía Yanina Calixto Lopez',
         nameUser:'Thalía Calixto',
         cargo:'Tesista de pregrado',
@@ -117,7 +117,7 @@ export const listaTeam= [
     },
     {
         id:6,
-        foto:'/section/Clima.jpg',
+        foto:'/section/Clima.JPG',
         user:'victor-smith-medina-cotrina',
         name:'Víctor Smith Medina Cotrina',
         cargo:'Tesista de pregrado',

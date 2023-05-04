@@ -78,7 +78,7 @@ export default function Home(){
                         </Link>
                         <Link href='/clima'>
                             <div className='relative cursor-pointer'>
-                                <Image className='cover' src='/section/Clima.jpg' width={400} height={290} alt='Grupo de investigación'/>
+                                <Image className='cover' src='/section/Clima.JPG' width={400} height={290} alt='Grupo de investigación'/>
                                 <h1 className='absolute left-1/3 top-1/2 bg-white px-5 py-3 rounded-md opacity'>Clima</h1>
                             </div>
                         </Link>
